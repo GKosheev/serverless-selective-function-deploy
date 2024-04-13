@@ -4,14 +4,21 @@
   "version": "1.0.0",
   "description": "A Serverless plugin to selectively deploy functions based on a toDeploy boolean property.",
   "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
+  "scripts": {},
   "keywords": [
     "serverless",
     "plugin",
     "aws",
     "lambda"
   ],
-  "license": "MIT"
+  "author": "Gleb Koshcheev <gleb.koshcheev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GKosheev/serverless-selective-function-deploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GKosheev/serverless-selective-function-deploy/issues"
+  },
+  "homepage": "https://github.com/GKosheev/serverless-selective-function-deploy#readme"
 }
