@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "description": "A Serverless plugin to selectively deploy functions based on a toDeploy boolean property.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "node --test test/"
+  },
   "keywords": [
     "serverless",
     "plugin",
